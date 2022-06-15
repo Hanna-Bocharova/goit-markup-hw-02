@@ -1,0 +1,45 @@
+/* цвет основной: 212121*/
+/* цвет вторичній: 757575*/
+/* цвет лого и пр: 2196F3*/
+/* цвет фон команда: F5F4FA*/
+/* цвет фон сайта: E5E5E5*/
+/* цвет фон сайта: бел*/
+/* цвет акцент: 2196F3*/
+/* :root */
+
+/* h2,
+h3 {
+  color: 212121; */
+
+.list {
+  list-style: none;
+}
+
+.title {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.section-title {
+  color: #212121;
+}
+
+.title-type {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+.button-type {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+}

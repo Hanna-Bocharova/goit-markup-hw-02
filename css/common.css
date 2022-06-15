@@ -1,0 +1,30 @@
+.page {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.logo-type {
+  color: black;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth-nav .link {
+  color: #757575;
+}
+
+.auth-nav .link:hover {
+  color: #2196f3;
+}
