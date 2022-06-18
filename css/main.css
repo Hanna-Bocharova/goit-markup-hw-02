@@ -11,10 +11,6 @@
 h3 {
   color: 212121; */
 
-.list {
-  list-style: none;
-}
-
 .title {
   background-color: #2f303a;
   width: 1600px;
@@ -22,24 +18,118 @@ h3 {
 }
 
 .section-title {
-  color: #212121;
+  color: var(--color-secondary);
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.section-caption {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.section-position {
+  color: var(--color-primary);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-content {
+  color: var(--color-secondary);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .title-type {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
+  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.35;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-tertiary);
   padding-top: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 .button-type {
   width: 200px;
   height: 50px;
-  background-color: #2196f3;
+  background-color: var(--color-accent);
+  margin-left: 700px;
+  margin-bottom: 0;
+  color: var(--color-tertiary);
+}
+
+.section-text {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+/* logo Raleway bold
+Roboto medium
+roboto reguliar
+roboto bold
+roboto black */
+.footer-title {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 250px;
+}
+
+.list-item {
+  color: var(--color-tertiary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 215px;
+}
+
+.list .footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+  height: 38px;
+  background-color: #f5f4fa;
+  color: var(--color-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #f5f4fa;
+  line-height: 1.9;
+}
+
+.title-item {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-secondary);
+  line-height: 2;
+}
+
+.title-items {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.list .list-item,
+.list-items {
+  text-decoration: none;
+  font-style: normal;
+}
+.list-items {
+  margin-left: 215px;
+  margin-top: 60px;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.list .link {
+  color: rgba(255, 255, 255, 0, 6);
 }
