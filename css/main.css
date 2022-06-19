@@ -1,26 +1,92 @@
-/* цвет основной: 212121*/
-/* цвет вторичній: 757575*/
-/* цвет лого и пр: 2196F3*/
-/* цвет фон команда: F5F4FA*/
-/* цвет фон сайта: E5E5E5*/
-/* цвет фон сайта: бел*/
-/* цвет акцент: 2196F3*/
-/* :root */
+:root {
+  --font-family-primary: "Roboto", sans-serif;
+  --font-family-logo: "Raleway", sans-serif;
+  --color-background-primary: #e5e5e5;
+  --color-tertiary: #fff;
+  --color-primary: #757575;
+  --color-secondary: #212121;
+  --color-accent: #2196f3;
+  --color-background: #2f303a;
+}
 
-/* h2,
-h3 {
-  color: 212121; */
+.page {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-background-primar);
+  color: var(--color-primary);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.003rem;
+}
 
 .title {
-  background-color: #2f303a;
+  background-color: var(--color-background);
   width: 1600px;
   height: 600px;
+}
+
+.logo {
+  color: var(--color-accent);
+  margin-left: 40px;
+}
+
+.logo-link {
+  color: black;
+}
+
+.logo,
+.logo-link {
+  font-family: var(--font-family-logo);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.site-nav .link {
+  color: var(--color-secondary);
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.2;
+  letter-spacing: 0.002rem;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-accent);
+}
+
+.site-nav .link .current {
+  color: var(--color-accent);
+}
+
+.auth-nav .link {
+  color: var(--color-primary);
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.2;
+  letter-spacing: 0.002rem;
+}
+
+.auth-nav .link:hover {
+  color: var(--color-accent);
+}
+
+.list-item:hover,
+.list-item:focus {
+  color: var(--color-accent);
+}
+
+.list .list-item {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .section-title {
   color: var(--color-secondary);
   font-family: Roboto;
   font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .section-caption {
@@ -55,7 +121,9 @@ h3 {
   color: var(--color-tertiary);
   padding-top: 200px;
   padding-bottom: 0;
+  letter-spacing: 0.006rem;
 }
+
 .button-type {
   width: 200px;
   height: 50px;
@@ -63,6 +131,7 @@ h3 {
   margin-left: 700px;
   margin-bottom: 0;
   color: var(--color-tertiary);
+  letter-spacing: 0.006rem;
 }
 
 .section-text {
@@ -76,7 +145,7 @@ roboto reguliar
 roboto bold
 roboto black */
 .footer-title {
-  background-color: #2f303a;
+  background-color: var(--color-background);
   width: 1600px;
   height: 250px;
 }
@@ -103,11 +172,18 @@ roboto black */
   line-height: 1.9;
 }
 
+.button:hover,
+.button:focus {
+  color: var(--color-tertiary);
+  background-color: var(--color-accent);
+}
+
 .title-item {
   font-weight: 700;
   font-size: 18px;
   color: var(--color-secondary);
   line-height: 2;
+  letter-spacing: 0.006rem;
 }
 
 .title-items {
