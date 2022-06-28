@@ -23,21 +23,29 @@ body {
   letter-spacing: 0.03em;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1170px;
-  width: 100%;
-}
-
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+  display: flex;
 }
 
 /* header */
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-family: var(--font-family-logo);
@@ -62,6 +70,25 @@ body {
   color: var(--color-secondary);
 }
 
+.header-list,
+.header-contakts-list {
+  display: flex;
+}
+
+.header-contakts-list li,
+.header-list li {
+  display: block;
+  margin-right: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  background-color: tomato;
+}
+
+.header-list .header-link:last-child {
+  margin-right: 0;
+}
+
 .header-contakts-link {
   color: var(--color-primary);
 }
@@ -74,9 +101,8 @@ body {
 .accent {
   color: var(--color-accent);
 }
-
-.header-nav {
-  background-color: var(--color-top);
+.header-list {
+  margin-left: 93px;
 }
 
 /* hero */
@@ -116,6 +142,8 @@ body {
   cursor: pointer;
 }
 
+/* benefits */
+
 .benefits-caption,
 .activity-caption,
 .team-caption {
@@ -125,11 +153,10 @@ body {
   color: var(--color-secondary);
 }
 
-/* benefits */
-
 .benefits-title {
   color: var(--color-secondary);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -177,6 +204,10 @@ body {
   background-color: var(--color-background);
 }
 
+.footer .logo {
+  color: var(--color-tertiary);
+}
+
 /* portfolio */
 /* titles */
 
@@ -190,10 +221,13 @@ body {
   letter-spacing: 0.03em;
   border: none;
   cursor: pointer;
+
+  padding: 6px 22px;
 }
 .button:hover,
 .button:focus {
   background-color: var(--color-accent);
+  color: var(--color-tertiary);
 }
 
 /* projects */
